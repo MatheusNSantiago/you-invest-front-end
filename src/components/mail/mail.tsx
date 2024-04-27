@@ -28,7 +28,7 @@ import { type Mail } from "@/components/mail/data";
 import { useMail } from "./use-mail";
 import { Input } from "../ui/input";
 import { MailList } from "./mail-list";
-import { MailDisplay } from "./mail-display";
+// import { MailDisplay } from "./mail-display";
 
 interface MailProps {
   accounts: {
@@ -206,11 +206,11 @@ export function Mail({
           </Tabs>
         </ResizablePanel>
         <ResizableHandle withHandle />
-        <ResizablePanel defaultSize={defaultLayout[2]}>
-          <MailDisplay
-            mail={mails.find((item) => item.id === mail.selected) || null}
-          />
-        </ResizablePanel>
+        {/* <ResizablePanel defaultSize={defaultLayout[2]}> */}
+          {/* <MailDisplay */}
+          {/*   mail={mails.find((item) => item.id === mail.selected) || null} */}
+          {/* /> */}
+        {/* </ResizablePanel> */}
       </ResizablePanelGroup>
     </TooltipProvider>
   );
