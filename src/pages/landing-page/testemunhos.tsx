@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 import { BadgeCheck } from "lucide-react";
 
 export const Testemunhos = () => {
@@ -62,7 +62,7 @@ export const Testemunhos = () => {
         />
         <Testemunho
           name="Kanye West"
-          imageUrl="https://picsum.photos/100/100.webp?random=3"
+          imageUrl="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
           handle="@YeezyFanatic"
           text="Nunca mais vou conseguir viver sem esse produto. Obrigado!"
           className="col-span-4"

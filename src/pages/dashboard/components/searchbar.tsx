@@ -12,7 +12,7 @@ function Searchbar({ onClick, defaultValue }: SearchbarProps) {
   return (
     <div className="flex items-center pt-5 p-5 space-x-2 w-full border">
       <Input
-        className="text-white"
+        className="text-white bg-background"
         type="text"
         defaultValue={defaultValue}
         onChange={(e) => setUrl(e.target.value)}
